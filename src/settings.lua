@@ -1,0 +1,45 @@
+data:extend({
+    {
+        type = "string-setting",
+        name = "atan-fish-category",
+        setting_type = "startup",
+        order = "a",
+        default_value = "crafting-with-fluid",
+        allowed_values = {
+            "crafting-with-fluid",
+            "chemistry",
+        },
+    },
+    {
+        type = "int-setting",
+        name = "atan-fish-product-amount",
+        setting_type = "startup",
+        order = "b",
+        default_value = 3,
+        minimum_value = 3,
+    },
+    {
+        type = "int-setting",
+        name = "atan-fish-ingredient-fish-amount",
+        setting_type = "startup",
+        order = "c",
+        default_value = 2,
+        minimum_value = 2,
+    },
+    {
+        type = "int-setting",
+        name = "atan-fish-ingredient-water-amount",
+        setting_type = "startup",
+        order = "d",
+        default_value = 100,
+        minimum_value = 100,
+    },
+    {
+        type = "double-setting",
+        name = "atan-fish-crafting-time",
+        setting_type = "startup",
+        order = "e",
+        default_value = 10,
+        minimum_value = 0.1,
+    },
+})

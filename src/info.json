@@ -1,0 +1,11 @@
+{
+    "name": "atan-fish",
+    "version": "0.2.0",
+    "title": "Fish Recipe",
+    "author": "atanvarno",
+    "description": "Adds a configurable recipe to craft fish.",
+    "factorio_version": "1.1",
+    "dependencies": [
+        "base"
+    ]
+}
