@@ -16,11 +16,7 @@ local recipe = {
             type = "item",
             name = "raw-fish",
             amount = settings.startup["atan-fish-ingredient-fish-amount"].value,
-            catalyst_amount = math.min(
-                0,
-                settings.startup["atan-fish-product-amount"].value
-                    - settings.startup["atan-fish-ingredient-fish-amount"].value
-            ),
+            catalyst_amount = catalyst,
         },
         {
             type = "fluid",
@@ -28,8 +24,10 @@ local recipe = {
             amount = settings.startup["atan-fish-ingredient-water-amount"].value,
         },
     },
-    result = "raw-fish",
-    result_count = settings.startup["atan-fish-product-amount"].value,
+    result_is_always_fresh = true,
+    results = {
+        { type = "item", name = "raw-fish", amount = settings.startup["atan-fish-product-amount"].value },
+    },
     energy_required = settings.startup["atan-fish-crafting-time"].value,
     enabled = false,
     allow_decomposition = false,

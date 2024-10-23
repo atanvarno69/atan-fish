@@ -29,3 +29,7 @@ Other mods for fish production exist. Just a few good options are [Xenos Oppress
 These add a dedicated fish production building. If you just want to craft fish without adding any additional assets, this mod is for you.
 
 [No Fish In Spidertron](https://mods.factorio.com/mod/NoFishInSpidertron) is probably a more sensible way to automate spidertron production.
+
+## Space Age Incompatibility
+
+This mod is incompatibile with Space Age as it includes its own method for fish production.
