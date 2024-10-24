@@ -1,6 +1,6 @@
 {
     "name": "atan-fish",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "title": "Fish Recipe",
     "author": "atanvarno",
     "description": "Adds a configurable recipe to craft fish.",
