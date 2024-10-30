@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-10-30
+  Changes:
+    - Revert to allow use of quality modules.
+  Graphics:
+    - Improve crafting machine tint.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2024-10-24
   Bugfixes:
@@ -14,7 +21,7 @@ Date: 2024-10-23
   Changes:
     - Updated to Factorio 2.0.
   Compatibility:
-    - [Space Age] Added incompatibility, as Space Age includes its own way to create fish.
+    - [space-age] Added incompatibility, as Space Age includes its own way to create fish.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2024-08-03

@@ -21,8 +21,8 @@ local recipe = {
         },
     },
     crafting_machine_tint = {
-        primary = { 0, 0, 1, 1 },
-        secondary = { 0, 0, 1, 1 },
+        primary = { r = 0, g = 0, b = 255, a = 255 },
+        secondary = { r = 0, g = 0, b = 255, a = 255 },
     },
     result_is_always_fresh = true,
     results = {
@@ -38,7 +38,6 @@ local recipe = {
     allow_as_intermediate = false,
     allow_decomposition = false,
     allow_productivity = false,
-    allow_quality = false,
 }
 data:extend({ recipe })
 

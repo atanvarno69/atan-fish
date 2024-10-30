@@ -12,7 +12,7 @@ Settings provided to control:
 
 The recipe is unlocked by the technology that unlocks the selected crafting machine: Automation 2 for assembling machine 2, or Oil processing for chemical plant.
 
-Productivity and quality modules may not be used with the fish recipe.
+Productivity modules may not be used with the fish recipe.
 
 No additional assets or production chains are added.
 
